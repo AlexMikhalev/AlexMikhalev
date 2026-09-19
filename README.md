@@ -107,7 +107,7 @@ Pay-first SaaS that hands each customer their own Gitea-on-Firecracker microVM w
   <a href="https://terraphim-forge.com/"><img src="assets/terraphim-forge.webp" alt="Terraphim Forge — the code forge built for AI agents" width="700" /></a>
 </p>
 
-Plus the entire **[Terraphim organisation](https://github.com/terraphim)** — 66 public repositories, 52+ Rust workspace crates.
+Plus the entire **[Terraphim organisation](https://github.com/terraphim)** — 66 public repositories, **[52+ Rust workspace crates](https://terraphim.rs)**.
 
 ---
 
@@ -141,7 +141,10 @@ Plus the entire **[Terraphim organisation](https://github.com/terraphim)** — 6
 ## Background
 
 - Founder, **Applied Knowledge Systems Ltd** — applied AI, digital twins, sensor fusion
-- Systems engineering: operational digital twins of aircraft networks for Boeing and Rolls-Royce
+- **AI lead architect at Nationwide**; **CTO & Head of AI at Zestic AI** — taking innovation from idea to production ([metacortex.engineer](https://metacortex.engineer))
+- **The Pattern** — Redis Hackathon **Platinum Winner**: outperformed Nvidia's ML pipeline for BERT QA inference on CPU; results presented at a public lecture at **Oxford University, Green Templeton College** ([origin story](https://terraphim.ai/capabilities/origin-story/))
+- Methodology validated in the **INCOSE** community for the Systems Engineering Handbook v.4 — a recognised low-effort substitution for formal model-based systems engineering
+- Systems engineering: operational digital twins of aircraft networks for **Boeing** and **Rolls-Royce**
 - IoT sensor fusion: LiDAR and acoustic-based water-flow monitoring
 - Building with knowledge graphs since the CORD-19 era; local-first AI full-time since 2022
-- The name *Terraphim* comes from Vasiliy Golovachev's *Relict* series — an AI living inside a space suit, part of an exocortex
+- The name *Terraphim* comes from the [*Relict* series](https://www.goodreads.com/en/book/show/196710046) of science fiction novels by [Vasiliy Golovachev](https://en.wikipedia.org/wiki/Vasili_Golovachov) — an artificial intelligence living inside a spacesuit (part of an exocortex), designed to help you with your tasks
