@@ -74,6 +74,17 @@ Local-first knowledge graph search engine in Rust and WebAssembly: sub-milliseco
   <a href="https://terraphim.ai"><img src="assets/terraphim-ai.webp" alt="Terraphim AI — local-first knowledge navigation" width="700" /></a>
 </p>
 
+### [**Reference Architecture for AI**](https://reference-architecture.ai/) — patterns for production agent systems
+
+![12 Core Patterns](https://img.shields.io/badge/-12_Core_Patterns-2b2b2b?style=flat-square&logo=bookstack&logoColor=white)
+![HTML](https://img.shields.io/badge/-Zola_Site-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+The harness, not the model, determines agent success — +26% benchmark gain (52.8 → 66.5% on Terminal Bench 2.0) with zero model changes. Context architecture, execution guardrails, and memory infrastructure that actually works. Organisation: [reference-architecture-ai](https://github.com/reference-architecture-ai) ([site source](https://github.com/reference-architecture-ai/reference-architecture.ai)) · [Medium publication](https://medium.com/reference-architecture-for-ai).
+
+<p align="center">
+  <a href="https://reference-architecture.ai/"><img src="assets/reference-architecture-ai.webp" alt="Reference Architecture for AI — the harness determines agent success" width="700" /></a>
+</p>
+
 ### [**Terraphim Agents Forge**](https://github.com/terraphim/gitea) — Gitea fork for AI agent-native development
 
 ![Stars](https://img.shields.io/github/stars/terraphim/gitea?style=flat-square&logo=github&logoColor=white)
@@ -105,6 +116,17 @@ Pay-first SaaS that hands each customer their own Gitea-on-Firecracker microVM w
 
 <p align="center">
   <a href="https://terraphim-forge.com/"><img src="assets/terraphim-forge.webp" alt="Terraphim Forge — the code forge built for AI agents" width="700" /></a>
+</p>
+
+### [**Synth**](https://github.com/AlexMikhalev/synth) — declarative synthetic data generation
+
+![Stars](https://img.shields.io/github/stars/AlexMikhalev/synth?style=flat-square&logo=github&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+The Declarative Data Generator: realistic, constraint-based synthetic data from schema-as-code — database agnostic, scales to millions of rows, version-controlled and peer-reviewable like any other code. Fork carrying the [getsynth/synth](https://github.com/getsynth/synth) lineage (★1.4k upstream) forward. Companion content: [synth-data-engineering](https://github.com/AlexMikhalev/synth-data-engineering).
+
+<p align="center">
+  <a href="https://github.com/AlexMikhalev/synth"><img src="assets/synth.webp" alt="Synth — the declarative data generator" width="700" /></a>
 </p>
 
 Plus the entire **[Terraphim organisation](https://github.com/terraphim)** — 66 public repositories, **[52+ Rust workspace crates](https://terraphim.rs)**.
