@@ -62,16 +62,50 @@
 
 ## Open Source Highlights
 
-| Project | Stars | Lang | Purpose |
-|:--------|:-----:|:----:|:--------|
-| [**claude-code-continuous-learning-skill**](https://github.com/AlexMikhalev/claude-code-continuous-learning-skill) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/claude-code-continuous-learning-skill?style=flat-square&logo=github&logoColor=white) | ![Skill](https://img.shields.io/badge/-Skill-3178C6?style=flat-square&logo=anthropic&logoColor=white) | Autonomous skill extraction and continuous learning for Claude Code |
-| [**opencode-fff**](https://github.com/AlexMikhalev/opencode-fff) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/opencode-fff?style=flat-square&logo=github&logoColor=white) | ![TS](https://img.shields.io/badge/-TS-3178C6?style=flat-square&logo=typescript&logoColor=white) | opencode plugin: FFF-powered fuzzy file and content search |
-| [**cord19redisknowledgegraph**](https://github.com/AlexMikhalev/cord19redisknowledgegraph) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/cord19redisknowledgegraph?style=flat-square&logo=github&logoColor=white) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Knowledge graph from the CORD-19 Kaggle dataset using Redis |
-| [**fluvio-s3-sink**](https://github.com/AlexMikhalev/fluvio-s3-sink) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/fluvio-s3-sink?style=flat-square&logo=github&logoColor=white) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | Fluvio to S3 sink connector |
-| [**beautiful-mermaid**](https://github.com/AlexMikhalev/beautiful-mermaid) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/beautiful-mermaid?style=flat-square&logo=github&logoColor=white) | ![TS](https://img.shields.io/badge/-TS-3178C6?style=flat-square&logo=typescript&logoColor=white) | Agent skill for rendering Mermaid diagrams as SVG or ASCII art, 15 built-in themes |
-| [**sup-rs**](https://github.com/AlexMikhalev/sup-rs) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/sup-rs?style=flat-square&logo=github&logoColor=white) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | Minimalist deployment tool, rewritten in Rust |
-| [**obsidian-sample-rust**](https://github.com/AlexMikhalev/obsidian-sample-rust) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/obsidian-sample-rust?style=flat-square&logo=github&logoColor=white) | ![TS](https://img.shields.io/badge/-TS-3178C6?style=flat-square&logo=typescript&logoColor=white) | Sample Obsidian plugin calling Rust libraries from TypeScript |
-| [**lacp**](https://github.com/AlexMikhalev/lacp) | ![Stars](https://img.shields.io/github/stars/AlexMikhalev/lacp?style=flat-square&logo=github&logoColor=white) | ![Agent](https://img.shields.io/badge/-Agent-2b2b2b?style=flat-square&logo=anthropic&logoColor=white) | Local Agent Control Plane: memory, retrieval gates, and control plane for Claude/Codex |
+### [**Terraphim AI**](https://github.com/terraphim/terraphim-ai) — the privacy-preserving AI assistant
+
+![Stars](https://img.shields.io/github/stars/terraphim/terraphim-ai?style=flat-square&logo=github&logoColor=white)
+![Latest Release](https://img.shields.io/github/v/release/terraphim/terraphim-ai?style=flat-square&color=2b2b2b&logo=github&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+Local-first knowledge graph search engine in Rust and WebAssembly: sub-millisecond Aho-Corasick matching over role-based knowledge graphs, zero telemetry, no account. Ships as CLI, Tauri desktop app, HTTP server, MCP server, and WASM browser extension — 52+ workspace crates.
+
+<p align="center">
+  <a href="https://terraphim.ai"><img src="assets/terraphim-ai.webp" alt="Terraphim AI — local-first knowledge navigation" width="700" /></a>
+</p>
+
+### [**Terraphim Agents Forge**](https://github.com/terraphim/gitea) — Gitea fork for AI agent-native development
+
+![Stars](https://img.shields.io/github/stars/terraphim/gitea?style=flat-square&logo=github&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+
+Gitea fork extended for the agent economy: PageRank-powered issue triage, dependency graphs, native MCP server, and scoped robot accounts with full audit trails. Upstream-compatible — runs our fleet at [git.terraphim.cloud](https://git.terraphim.cloud).
+
+<p align="center">
+  <a href="https://github.com/terraphim/gitea"><img src="assets/terraphim-agentforge-gitea.webp" alt="Terraphim Agents Forge — Gitea fork for AI agent-native development" width="700" /></a>
+</p>
+
+### [**terraphim-skills.md**](https://terraphim-skills.md/) — production-grade skills for AI agents
+
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Signed](https://img.shields.io/badge/-BLAKE3_+_Ed25519_signed-2b2b2b?style=flat-square&logo=shield&logoColor=white)
+
+57 curated, battle-tested, cryptographically signed skills for Claude Code, Codex, and other agent CLIs — disciplined engineering, Rust performance, DevOps, orchestration. One-command verified install: `cargo install terraphim-skills` → `tsm install <skill>`.
+
+<p align="center">
+  <a href="https://terraphim-skills.md/"><img src="assets/terraphim-skills-md.webp" alt="terraphim-skills.md — skills that make your AI agent ship mission-critical code" width="700" /></a>
+</p>
+
+### [**Terraphim Forge**](https://terraphim-forge.com/) — the code forge built for AI agents
+
+![Firecracker](https://img.shields.io/badge/-Firecracker_microVMs-2b2b2b?style=flat-square&logo=firecracker&logoColor=FF9900)
+![Gitea 1.26](https://img.shields.io/badge/-built_on_Gitea_1.26-2b2b2b?style=flat-square&logo=gitea&logoColor=white)
+
+Pay-first SaaS that hands each customer their own Gitea-on-Firecracker microVM within ~30 seconds of checkout — container, npm, and Cargo registries included. Public demo (resets daily): [demo.terraphim-forge.com](https://demo.terraphim-forge.com).
+
+<p align="center">
+  <a href="https://terraphim-forge.com/"><img src="assets/terraphim-forge.webp" alt="Terraphim Forge — the code forge built for AI agents" width="700" /></a>
+</p>
 
 Plus the entire **[Terraphim organisation](https://github.com/terraphim)** — 66 public repositories, 52+ Rust workspace crates.
 
